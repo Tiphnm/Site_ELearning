@@ -14,3 +14,7 @@ def create_table():
     mycursor.execute("CREATE TABLE IF NOT EXISTS Azure (ID INT PRIMARY KEY AUTO_INCREMENT, TITLE VARCHAR(255), LINK VARCHAR(255));")
 
 create_table()
+
+#mycursor.execute('INSERT INTO Javascript (TITLE, LINK) VALUES ("Mon titre", "Mon lien")')
+#database.commit()
+        
