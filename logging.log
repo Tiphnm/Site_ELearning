@@ -162,3 +162,51 @@
 2021-02-25 17:03:16,785: root :INFO:Creating Table: end
 2021-02-25 17:03:16,969: werkzeug :WARNING: * Debugger is active!
 2021-02-25 17:03:16,976: werkzeug :INFO: * Debugger PIN: 230-982-421
+2021-02-25 17:05:24,938: root :INFO:Launching azure page: start
+2021-02-25 17:05:24,954: werkzeug :INFO:127.0.0.1 - - [25/Feb/2021 17:05:24] "[37mGET /azure HTTP/1.1[0m" 200 -
+2021-02-25 17:05:25,133: werkzeug :INFO:127.0.0.1 - - [25/Feb/2021 17:05:25] "[37mGET /static/Azure.css HTTP/1.1[0m" 200 -
+2021-02-25 17:05:25,621: werkzeug :INFO:127.0.0.1 - - [25/Feb/2021 17:05:25] "[37mGET /static/assets/background.jpg HTTP/1.1[0m" 200 -
+2021-02-25 17:05:55,603: root :INFO:Launching homepage: start
+2021-02-25 17:05:55,608: werkzeug :INFO:127.0.0.1 - - [25/Feb/2021 17:05:55] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-02-25 17:05:55,742: werkzeug :INFO:127.0.0.1 - - [25/Feb/2021 17:05:55] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2021-02-25 17:05:55,988: werkzeug :INFO:127.0.0.1 - - [25/Feb/2021 17:05:55] "[37mGET /static/assets/background.jpg HTTP/1.1[0m" 200 -
+2021-02-25 17:06:36,532: werkzeug :INFO: * Detected change in '/Users/tiphaineminguet/Desktop/Simplon/E_Learning/api.py', reloading
+2021-02-25 17:06:37,016: root :INFO:This is an info:
+2021-02-25 17:06:37,016: root :ERROR:This is an error:
+2021-02-25 17:06:37,246: root :INFO:Creating Table: start
+2021-02-25 17:06:37,250: root :INFO:Creating Table: end
+2021-02-25 17:06:37,856: werkzeug :WARNING: * Debugger is active!
+2021-02-25 17:06:37,870: werkzeug :INFO: * Debugger PIN: 230-982-421
+2021-02-25 17:06:38,502: root :INFO:Launching homepage: start
+2021-02-25 17:06:38,502: root :INFO:Launching homepage: end
+2021-02-25 17:06:38,513: werkzeug :INFO:127.0.0.1 - - [25/Feb/2021 17:06:38] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-02-25 17:06:38,686: werkzeug :INFO:127.0.0.1 - - [25/Feb/2021 17:06:38] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2021-02-25 17:06:38,851: werkzeug :INFO:127.0.0.1 - - [25/Feb/2021 17:06:38] "[37mGET /static/assets/background.jpg HTTP/1.1[0m" 200 -
+2021-02-25 17:07:14,532: werkzeug :INFO: * Detected change in '/Users/tiphaineminguet/Desktop/Simplon/E_Learning/api.py', reloading
+2021-02-25 17:07:14,933: root :INFO:This is an info:
+2021-02-25 17:07:14,933: root :ERROR:This is an error:
+2021-02-25 17:07:14,997: root :INFO:Creating Table: start
+2021-02-25 17:07:15,000: root :INFO:Creating Table: end
+2021-02-25 17:07:15,303: werkzeug :WARNING: * Debugger is active!
+2021-02-25 17:07:15,312: werkzeug :INFO: * Debugger PIN: 230-982-421
+2021-02-25 17:07:23,464: werkzeug :INFO: * Detected change in '/Users/tiphaineminguet/Desktop/Simplon/E_Learning/api.py', reloading
+2021-02-25 17:07:23,759: root :INFO:This is an info:
+2021-02-25 17:07:23,760: root :ERROR:This is an error:
+2021-02-25 17:07:23,876: root :INFO:Creating Table: start
+2021-02-25 17:07:23,879: root :INFO:Creating Table: end
+2021-02-25 17:07:24,135: werkzeug :WARNING: * Debugger is active!
+2021-02-25 17:07:24,141: werkzeug :INFO: * Debugger PIN: 230-982-421
+2021-02-25 17:07:45,527: werkzeug :INFO: * Detected change in '/Users/tiphaineminguet/Desktop/Simplon/E_Learning/api.py', reloading
+2021-02-25 17:07:45,783: root :INFO:This is an info:
+2021-02-25 17:07:45,783: root :ERROR:This is an error:
+2021-02-25 17:07:45,834: root :INFO:Creating Table: start
+2021-02-25 17:07:45,838: root :INFO:Creating Table: end
+2021-02-25 17:07:46,070: werkzeug :WARNING: * Debugger is active!
+2021-02-25 17:07:46,076: werkzeug :INFO: * Debugger PIN: 230-982-421
+2021-02-25 17:07:55,229: werkzeug :INFO: * Detected change in '/Users/tiphaineminguet/Desktop/Simplon/E_Learning/api.py', reloading
+2021-02-25 17:07:55,531: root :INFO:This is an info:
+2021-02-25 17:07:55,531: root :ERROR:This is an error:
+2021-02-25 17:07:55,582: root :INFO:Creating Table: start
+2021-02-25 17:07:55,584: root :INFO:Creating Table: end
+2021-02-25 17:07:55,758: werkzeug :WARNING: * Debugger is active!
+2021-02-25 17:07:55,764: werkzeug :INFO: * Debugger PIN: 230-982-421
