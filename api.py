@@ -20,8 +20,9 @@ def home():
         mycursor.execute("INSERT INTO Courses (CATEGORY, TITLE, LINK) VALUES (%s,%s,%s) ",(my_category, my_title, my_link) )
         database.commit()
 
-    return render_template("index.html")
     logging.info("Launching homepage: end")
+
+    return render_template("index.html")
 
 
 @app.route('/javascript', methods= ["GET"])
@@ -31,9 +32,10 @@ def javascript():
     mycursor.execute("SELECT * FROM Courses WHERE CATEGORY LIKE 'JavaScript';")
     result = mycursor.fetchall()
     print('request=', result)
-    return render_template("javascript.html", len = len(result), results=result)
 
     logging.info("Launching javascript page: end")
+
+    return render_template("javascript.html", len = len(result), results=result)
 
 
 @app.route('/api/javascript')
@@ -42,9 +44,10 @@ def javascript_api():
 
     mycursor.execute("SELECT * FROM Courses WHERE CATEGORY LIKE 'JavaScript';")
     output = mycursor.fetchall()
-    return jsonify(output)
 
     logging.info("Launching javascript API page: end")
+
+    return jsonify(output)
 
 
 @app.route('/api/python')
@@ -53,9 +56,10 @@ def python():
 
     mycursor.execute("SELECT * FROM Courses")
     output = mycursor.fetchall()
-    return jsonify(output)
 
     logging.info("Launching python API page: end")
+
+    return jsonify(output)
 
 
 @app.route('/azure', methods=["GET"])
@@ -64,9 +68,9 @@ def azure():
 
     mycursor.execute("SELECT * FROM Courses WHERE CATEGORY LIKE 'Azure'")
     output = mycursor.fetchall()
-    return render_template("Azure.html", len= len(output), result= output)
-
     logging.info("Launching azure page: end")
+
+    return render_template("Azure.html", len= len(output), result= output)
 
 
 @app.route('/api/azure')
@@ -75,9 +79,10 @@ def azure_api():
 
     mycursor.execute("SELECT * FROM Courses WHERE CATEGORY LIKE 'Azure'")
     output = mycursor.fetchall()
+    logging.info("Launching Azure API page: end")
+
     return jsonify(output)
 
-    logging.info("Launching Azure API page: end")
 
 
 if __name__ == "__main__": 
