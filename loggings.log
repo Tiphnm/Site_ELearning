@@ -1,5 +1,0 @@
-2021-02-25 16:56:22,281: root :INFO:This is an info:
-2021-02-25 16:56:22,281: root :ERROR:This is an error:
-2021-02-25 16:56:22,587: werkzeug :WARNING: * Debugger is active!
-2021-02-25 16:56:22,600: werkzeug :INFO: * Debugger PIN: 230-982-421
-2021-02-25 16:56:38,904: werkzeug :INFO: * Detected change in '/Users/tiphaineminguet/Desktop/Simplon/E_Learning/db.py', reloading
