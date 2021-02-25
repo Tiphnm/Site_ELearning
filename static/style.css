@@ -104,11 +104,14 @@ h1, h2{
     width: 80%;
     background-color: black;
     margin: auto;
-    display: flex;
-    justify-content: space-around;
     padding: 30px;
     color: white;
     border-radius: 30px;
+}
+
+.formulaire{
+    display: flex;
+    justify-content: space-around;
 }
 
 #left_side, #right_side {
