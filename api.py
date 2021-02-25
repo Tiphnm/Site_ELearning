@@ -15,16 +15,23 @@ def home():
         my_link= request.form.get("video_link")
         my_category= request.form.get("category")
         print("MES DATAS", my_link, my_title, my_category)
-        
-        mycursor.execute("INSERT INTO Courses (CATEGORY, TITLE, LINK) VALUES (%s,%s,%s)",(my_category, my_title, my_link) )
+        mycursor.execute("INSERT INTO Courses (CATEGORY, TITLE, LINK) VALUES (%s,%s,%s) ",(my_category, my_title, my_link) )
+
         database.commit()
 
     return render_template("index.html")
 
+@app.route('/javascript', methods= ["GET"])
+def javascript(): 
+    mycursor.execute("SELECT * FROM Courses WHERE CATEGORY LIKE 'JavaScript';")
+    result = mycursor.fetchall()
+    print('request=', result)
+    return render_template("javascript.html", len = len(result), results=result)
+
 
 @app.route('/api/javascript')
-def javascript():
-    mycursor.execute("SELECT * FROM Courses")
+def javascript_api():
+    mycursor.execute("SELECT * FROM Courses WHERE CATEGORY LIKE 'JavaScript';")
     output = mycursor.fetchall()
     return jsonify(output)
 
@@ -34,9 +41,15 @@ def python():
     output = mycursor.fetchall()
     return jsonify(output)
 
-@app.route('/api/azure')
+@app.route('/azure', methods=["GET"])
 def azure():
-    mycursor.execute("SELECT * FROM Courses")
+    mycursor.execute("SELECT * FROM Courses WHERE CATEGORY LIKE 'Azure'")
+    output = mycursor.fetchall()
+    return render_template("Azure.html", len= len(output), result= output)
+
+@app.route('/api/azure')
+def azure_api():
+    mycursor.execute("SELECT * FROM Courses WHERE CATEGORY LIKE 'Azure'")
     output = mycursor.fetchall()
     return jsonify(output)
 
