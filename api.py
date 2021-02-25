@@ -35,11 +35,22 @@ def javascript_api():
     output = mycursor.fetchall()
     return jsonify(output)
 
+
+@app.route('/python', methods= ["GET"])
+def python(): 
+    mycursor.execute("SELECT * FROM Courses WHERE CATEGORY LIKE 'Python';")
+    result = mycursor.fetchall()
+    print('request=', result)
+    return render_template("python.html", len = len(result), results=result)
+
+
 @app.route('/api/python')
-def python():
-    mycursor.execute("SELECT * FROM Courses")
+def javascript_api():
+    mycursor.execute("SELECT * FROM Courses WHERE CATEGORY LIKE 'Python';")
     output = mycursor.fetchall()
     return jsonify(output)
+
+
 
 @app.route('/azure', methods=["GET"])
 def azure():

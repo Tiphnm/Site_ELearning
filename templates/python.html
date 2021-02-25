@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="python.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  
+    <title>Learn Python for free </title>
 
   
 </head>
@@ -39,35 +39,39 @@
 
 <h1 class="heading">our latest courses</h1>
 
-<div class="box-container" action="/home" method="GET">
+<div class="box-container">
+  {%for i in range(0, len)%} 
   <div class="box" data-aos="flip-right">
+    <p class="video_title">{{results[i][2]}}</p>
     <p> Learn python online for free. 4H30 course for absolute beginners </p>
-    <iframe width="450" height="450" src="https://www.youtube.com/embed/rfscVS0vtbw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="450" height="450" src="https://www.youtube.com/embed/{{results[i][3].split('/')[3]}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
+  {%endfor%}
 
+  {%for i in range(0, len)%} 
   <div class="box" data-aos="flip-down">
-    
+    <p class="video_title">{{results[i][2]}}</p>
     <p> Learn Regular expressions for Python: a well explained and detailed course</p>
-    <iframe width="400" height="450" src="https://www.youtube.com/embed/sa-TUpSx1JA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="400" height="450" src="https://www.youtube.com/embed/{{results[i][3].split('/')[3]}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
-
+  {%endfor%}
   <div class="box" data-aos="flip-left">
     <p> Learn Flask for Python - Full Tutorial 1 hour</p>
-    <iframe width="500" height="315" src="https://www.youtube.com/embed/Z1RJmh_OqeA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/{{results[i][3].split('/')[3]}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 
   <div class="box" data-aos="flip-right">
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla dolor fuga soluta quo quos delectus praesentium aliquam officia? Repellendus, natus.</p>
-    <iframe width="400" height="450" src="https://www.youtube.com/embed/8ext9G7xspg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="400" height="450" src="https://www.youtube.com/embed/{{results[i][3].split('/')[3]}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 
   <div class="box" data-aos="flip-up">
-    <img src="images/icon5.svg" alt="">
+    
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla dolor fuga soluta quo quos delectus praesentium aliquam officia? Repellendus, natus.</p>
   </div>
 
   <div class="box" data-aos="flip-right">
-    <img src="images/icon6.svg" alt="">
+   
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla dolor fuga soluta quo quos delectus praesentium aliquam officia? Repellendus, natus.</p>
   </div>
 
@@ -205,7 +209,7 @@
 
 <section id="footer">
 
-<h1>&copy; copyright @ 2020 by <span> Rachid BOUBAYA</span></h1>
+<h1>&copy; copyright @ 2021 by <span> Rachid BOUBAYA</span></h1>
 
 </section>
 
