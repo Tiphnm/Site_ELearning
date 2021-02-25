@@ -21,10 +21,17 @@ def home():
 
     return render_template("index.html")
 
+@app.route('/javascript', methods= ["GET"])
+def javascript(): 
+    mycursor.execute("SELECT * FROM Courses WHERE CATEGORY LIKE 'JavaScript';")
+    result = mycursor.fetchall()
+    print('request=', result)
+    return render_template("javascript.html", len = len(result), results=result)
+
 
 @app.route('/api/javascript')
-def javascript():
-    mycursor.execute("SELECT * FROM Courses")
+def javascript_api():
+    mycursor.execute("SELECT * FROM Courses WHERE CATEGORY LIKE 'JavaScript';")
     output = mycursor.fetchall()
     return jsonify(output)
 
