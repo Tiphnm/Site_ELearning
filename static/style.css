@@ -91,7 +91,7 @@ h1, h2{
     width: 100px;
     height: 100px;
     margin: 0 50px;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .logo:hover{
@@ -125,4 +125,3 @@ h1, h2{
 .add_button{
     margin-top: 28px;
 }
-

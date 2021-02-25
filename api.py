@@ -7,25 +7,36 @@ app = Flask(__name__)
 def welcome(): 
     return redirect(url_for('home'))    
 
-@app.route('/home')
+@app.route('/home', methods= ["GET", "POST"])
 def home(): 
+
+    if request.method == "POST":
+        my_title= request.form.get("title")
+        my_link= request.form.get("video_link")
+        my_category= request.form.get("category")
+        print("MES DATAS", my_link, my_title, my_category)
+        
+        mycursor.execute("INSERT INTO Courses (CATEGORY, TITLE, LINK) VALUES (%s,%s,%s)",(my_category, my_title, my_link) )
+        database.commit()
+
     return render_template("index.html")
+
 
 @app.route('/api/javascript')
 def javascript():
-    mycursor.execute("SELECT * FROM Javascript")
+    mycursor.execute("SELECT * FROM Courses")
     output = mycursor.fetchall()
     return jsonify(output)
 
 @app.route('/api/python')
 def python():
-    mycursor.execute("SELECT * FROM Python")
+    mycursor.execute("SELECT * FROM Courses")
     output = mycursor.fetchall()
     return jsonify(output)
 
 @app.route('/api/azure')
 def azure():
-    mycursor.execute("SELECT * FROM Azure")
+    mycursor.execute("SELECT * FROM Courses")
     output = mycursor.fetchall()
     return jsonify(output)
 

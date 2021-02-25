@@ -9,9 +9,7 @@ database = mysql.connector.connect(
 mycursor= database.cursor()
 
 def create_table():
-    mycursor.execute("CREATE TABLE IF NOT EXISTS Javascript (ID INT PRIMARY KEY AUTO_INCREMENT, TITLE VARCHAR(255), LINK VARCHAR(255));")
-    mycursor.execute("CREATE TABLE IF NOT EXISTS Python (ID INT PRIMARY KEY AUTO_INCREMENT, TITLE VARCHAR(255), LINK VARCHAR(255));")
-    mycursor.execute("CREATE TABLE IF NOT EXISTS Azure (ID INT PRIMARY KEY AUTO_INCREMENT, TITLE VARCHAR(255), LINK VARCHAR(255));")
+    mycursor.execute("CREATE TABLE IF NOT EXISTS Courses (ID INT PRIMARY KEY AUTO_INCREMENT, CATEGORY VARCHAR(255), TITLE VARCHAR(255), LINK VARCHAR(255));")
 
 create_table()
 
