@@ -62,7 +62,7 @@ body{
 
 .my_videos{
     width: 40%;
-    background-color: rgba(0, 0, 0, 0.479);
+    background-color: rgba(0, 0, 0, 0.6);
     margin: auto;
     margin-top: 20px;
     display: flex;
