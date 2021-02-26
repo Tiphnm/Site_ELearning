@@ -210,3 +210,41 @@
 2021-02-25 17:07:55,584: root :INFO:Creating Table: end
 2021-02-25 17:07:55,758: werkzeug :WARNING: * Debugger is active!
 2021-02-25 17:07:55,764: werkzeug :INFO: * Debugger PIN: 230-982-421
+2021-02-25 17:10:25,950: root :INFO:This is an info:
+2021-02-25 17:10:25,950: root :ERROR:This is an error:
+2021-02-25 17:10:26,016: root :INFO:Creating Table: start
+2021-02-25 17:10:26,018: root :INFO:Creating Table: end
+2021-02-25 17:10:26,480: werkzeug :WARNING: * Debugger is active!
+2021-02-25 17:10:26,492: werkzeug :INFO: * Debugger PIN: 230-982-421
+2021-02-25 17:15:49,618: root :INFO:Launching homepage: start
+2021-02-25 17:15:49,618: root :INFO:Launching homepage: end
+2021-02-25 17:15:49,635: werkzeug :INFO:127.0.0.1 - - [25/Feb/2021 17:15:49] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-02-25 17:15:49,735: werkzeug :INFO:127.0.0.1 - - [25/Feb/2021 17:15:49] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2021-02-25 17:15:49,944: werkzeug :INFO:127.0.0.1 - - [25/Feb/2021 17:15:49] "[37mGET /static/assets/background.jpg HTTP/1.1[0m" 200 -
+2021-02-25 17:15:50,992: werkzeug :INFO:127.0.0.1 - - [25/Feb/2021 17:15:50] "[33mGET /python HTTP/1.1[0m" 404 -
+2021-02-25 17:15:52,933: werkzeug :INFO:127.0.0.1 - - [25/Feb/2021 17:15:52] "[33mGET /python HTTP/1.1[0m" 404 -
+2021-02-26 09:56:02,170: root :INFO:Launching homepage: start
+2021-02-26 09:56:02,174: root :INFO:Launching homepage: end
+2021-02-26 09:56:02,179: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 09:56:02] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-02-26 09:56:02,322: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 09:56:02] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2021-02-26 09:56:02,582: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 09:56:02] "[37mGET /static/assets/background.jpg HTTP/1.1[0m" 200 -
+2021-02-26 09:57:47,912: root :INFO:Launching homepage: start
+2021-02-26 09:57:47,914: root :INFO:Launching homepage: end
+2021-02-26 09:57:47,914: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 09:57:47] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-02-26 09:57:48,032: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 09:57:48] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2021-02-26 09:57:48,222: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 09:57:48] "[37mGET /static/assets/background.jpg HTTP/1.1[0m" 200 -
+2021-02-26 09:58:18,981: root :INFO:Launching homepage: start
+2021-02-26 09:58:18,987: root :INFO:Launching homepage: end
+2021-02-26 09:58:18,991: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 09:58:18] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-02-26 09:58:19,057: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 09:58:19] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2021-02-26 09:58:19,238: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 09:58:19] "[37mGET /static/assets/background.jpg HTTP/1.1[0m" 200 -
+2021-02-26 10:00:15,168: root :INFO:Launching azure page: start
+2021-02-26 10:00:15,309: root :INFO:Launching azure page: end
+2021-02-26 10:00:15,423: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:00:15] "[37mGET /azure HTTP/1.1[0m" 200 -
+2021-02-26 10:00:15,562: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:00:15] "[37mGET /static/Azure.css HTTP/1.1[0m" 200 -
+2021-02-26 10:00:16,432: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:00:16] "[37mGET /static/assets/background.jpg HTTP/1.1[0m" 200 -
+2021-02-26 10:00:28,606: root :INFO:Launching azure page: start
+2021-02-26 10:00:28,610: root :INFO:Launching azure page: end
+2021-02-26 10:00:28,611: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:00:28] "[37mGET /azure HTTP/1.1[0m" 200 -
+2021-02-26 10:00:28,734: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:00:28] "[37mGET /static/Azure.css HTTP/1.1[0m" 200 -
+2021-02-26 10:00:28,918: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:00:28] "[37mGET /static/assets/background.jpg HTTP/1.1[0m" 200 -
