@@ -45,7 +45,7 @@ def python():
 
 
 @app.route('/api/python')
-def javascript_api():
+def python_api():
     mycursor.execute("SELECT * FROM Courses WHERE CATEGORY LIKE 'Python';")
     output = mycursor.fetchall()
     return jsonify(output)
@@ -65,4 +65,4 @@ def azure_api():
     return jsonify(output)
 
 if __name__ == "__main__": 
-    app.run(host= "0.0.0.0", port=4200, debug = True)
+    app.run(host= "0.0.0.0", port=3000, debug = True)

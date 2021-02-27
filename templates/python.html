@@ -1,223 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Learn Python for free </title>
-    <link rel="stylesheet" href="fonts/font-awesome.css">
-    <link rel="stylesheet" href="fonts/google-fonts.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="python.css">
+    <meta charset="UTF-8"><meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='python.css')}}">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <title>Learn Python for free </title>
-
-  
+    <title>Python Courses</title>
 </head>
+  
 <body>
-<section>
   <nav id="nav">
-    <a href="" class="link">Home</a>
-    <a href="" class="link">JavaScript</a>
-    <a href="" class="link">Python</a>
-    <a href="" class="link">Azure</a>
-</nav>
-</section>
-<section>
-  <div class="icons">
-    <a href="#" class="fab fa-facebook-f"></a>
-    <a href="#" class="fab fa-twitter"></a>
-    <a href="#" class="fab fa-instagram"></a>
-    <a href="#" class="fab fa-linkedin"></a>
-  </div>
-</section>
+    <a href="/home" class="link">Home</a>
+    <a href="/javascript" class="link">JavaScript</a>
+    <a href="/python" class="link">Python</a>
+    <a href="/Azure" class="link">Azure</a>
+  </nav>
 
 
 
 <section id="course">
-
-<h1 class="heading">our latest courses</h1>
-
 <div class="box-container">
   {%for i in range(0, len)%} 
-  <div class="box" data-aos="flip-right">
-    <p class="video_title">{{results[i][2]}}</p>
-    <p> Learn python online for free. 4H30 course for absolute beginners </p>
-    <iframe width="450" height="450" src="https://www.youtube.com/embed/{{results[i][3].split('/')[3]}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div class="box">
+      <p class="video_title">{{results[i][2]}}</p>
+      <iframe width="500" height="315" src="https://www.youtube.com/embed/{{results[i][3].split('/')[3]}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
   {%endfor%}
-
-  {%for i in range(0, len)%} 
-  <div class="box" data-aos="flip-down">
-    <p class="video_title">{{results[i][2]}}</p>
-    <p> Learn Regular expressions for Python: a well explained and detailed course</p>
-    <iframe width="400" height="450" src="https://www.youtube.com/embed/{{results[i][3].split('/')[3]}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
-  {%endfor%}
-  <div class="box" data-aos="flip-left">
-    <p> Learn Flask for Python - Full Tutorial 1 hour</p>
-    <iframe width="500" height="315" src="https://www.youtube.com/embed/{{results[i][3].split('/')[3]}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
-
-  <div class="box" data-aos="flip-right">
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla dolor fuga soluta quo quos delectus praesentium aliquam officia? Repellendus, natus.</p>
-    <iframe width="400" height="450" src="https://www.youtube.com/embed/{{results[i][3].split('/')[3]}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
-
-  <div class="box" data-aos="flip-up">
-    
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla dolor fuga soluta quo quos delectus praesentium aliquam officia? Repellendus, natus.</p>
-  </div>
-
-  <div class="box" data-aos="flip-right">
-   
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla dolor fuga soluta quo quos delectus praesentium aliquam officia? Repellendus, natus.</p>
-  </div>
-
 </div>
-
 </section>
-
-<!-- course section ends -->
-
-
-<!-- service section starts  -->
-
-<section id="service">
-
-<h1 class="heading">what we offer?</h1>
-
-<div class="box-container">
-
-  <div class="box" data-aos="flip-up">
-    <img src="images/service1.svg" alt="">
-    <div class="info">
-      <h2>skilled teachers</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ad officia quas pariatur error nesciunt consectetur voluptatem minima fugit quo!</p>
-    </div>
-  </div>
-
-  <div class="box" data-aos="flip-down">
-    <img src="images/service2.svg" alt="">
-    <div class="info">
-      <h2>24x7 hours service</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ad officia quas pariatur error nesciunt consectetur voluptatem minima fugit quo!</p>
-    </div>
-  </div>
-
-  <div class="box" data-aos="flip-up">
-    <img src="images/service3.svg" alt="">
-    <div class="info">
-      <h2>certificate distribution</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ad officia quas pariatur error nesciunt consectetur voluptatem minima fugit quo!</p>
-    </div>
-  </div>
-
-</div>
-
-</section>
-
-
-
-
-<section id="testimonial">
-
-<h1 class="heading">what our students says</h1>
-
-<div class="box-container">
-
-<div class="box" data-aos="flip-left">
-  <img src="images/pic1.png" alt="">
-  <div class="info">
-    <p><i class="fas fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quae minima pariatur consequatur odio veniam nam dolorum enim eum a?<i class="fas fa-quote-right"></i></p>
-    <h2>--someone's name</h2>
-  </div>
-</div>
-
-<div class="box" data-aos="flip-right">
-  <img src="images/pic2.png" alt="">
-  <div class="info">
-    <p><i class="fas fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quae minima pariatur consequatur odio veniam nam dolorum enim eum a?<i class="fas fa-quote-right"></i></p>
-    <h2>--someone's name</h2>
-  </div>
-</div>
-
-<div class="box" data-aos="flip-left">
-  <img src="images/pic3.png" alt="">
-  <div class="info">
-    <p><i class="fas fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quae minima pariatur consequatur odio veniam nam dolorum enim eum a?<i class="fas fa-quote-right"></i></p>
-    <h2>--someone's name</h2>
-  </div>
-</div>
-
-<div class="box" data-aos="flip-right">
-  <img src="images/pic4.png" alt="">
-  <div class="info">
-    <p><i class="fas fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quae minima pariatur consequatur odio veniam nam dolorum enim eum a?<i class="fas fa-quote-right"></i></p>
-    <h2>--someone's name</h2>
-  </div>
-</div>
-
-</div>
-
-</section>
-
-
-<section id="contact" class="container-fluid">
-
-<h1 class="heading">get in touch</h1>
-
-<div class="row min-vh-75 align-items-center min-vw-100">
-
-<div class="col-lg-5 col-md-8  mx-auto">
- 
-<form action="" data-aos="zoom-in">
-
-  <div class="inputBox">
-    <input type="text" required>
-      <h3>full name</h3>
-  </div>
-
-  <div class="inputBox">
-    <input type="email" required>
-      <h3>e-mail</h3>
-  </div>
-
-  <div class="inputBox">
-    <input type="number" required>    
-      <h3>phone</h3>
-  </div>
-
-  <div class="inputBox">
-    <textarea name="" id="" cols="30" rows="10" required></textarea>
-    <h3>message</h3>
-  </div>
-
-  <div class="inputBox">
-    <input type="submit">
-  </div>
-
-</form>
-
-</div>
-
-</div>
-
-</section>
-
-
-<section id="footer">
-
-<h1>&copy; copyright @ 2021 by <span> Rachid BOUBAYA</span></h1>
-
-</section>
-
-
-
-
-
-
 
 
 <!-- script part start  -->
@@ -225,7 +37,7 @@
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init({
-      delay:500
+      delay:200
     });
 </script>
 
