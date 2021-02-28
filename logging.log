@@ -444,3 +444,89 @@
 2021-02-26 11:01:07,415: root :INFO:Creating Table: end
 2021-02-26 11:01:07,711: werkzeug :WARNING: * Debugger is active!
 2021-02-26 11:01:07,722: werkzeug :INFO: * Debugger PIN: 230-982-421
+2021-02-28 18:18:23,856: root :INFO:This is an info:
+2021-02-28 18:18:23,871: root :ERROR:This is an error:
+2021-02-28 18:19:35,255: root :INFO:This is an info:
+2021-02-28 18:19:35,259: root :ERROR:This is an error:
+2021-02-28 18:22:13,634: root :INFO:This is an info:
+2021-02-28 18:22:13,637: root :ERROR:This is an error:
+2021-02-28 18:24:39,989: root :INFO:This is an info:
+2021-02-28 18:24:39,995: root :ERROR:This is an error:
+2021-02-28 18:25:44,656: root :INFO:This is an info:
+2021-02-28 18:25:44,663: root :ERROR:This is an error:
+2021-02-28 18:27:24,305: root :INFO:This is an info:
+2021-02-28 18:27:24,307: root :ERROR:This is an error:
+2021-02-28 18:27:24,346: root :INFO:Creating Table: start
+2021-02-28 18:27:24,419: root :INFO:Creating Table: end
+2021-02-28 18:27:24,696: werkzeug :INFO: * Running on http://0.0.0.0:4200/ (Press CTRL+C to quit)
+2021-02-28 18:27:24,699: werkzeug :INFO: * Restarting with stat
+2021-02-28 18:27:24,836: root :INFO:This is an info:
+2021-02-28 18:27:24,837: root :ERROR:This is an error:
+2021-02-28 18:27:24,863: root :INFO:Creating Table: start
+2021-02-28 18:27:24,890: root :INFO:Creating Table: end
+2021-02-28 18:27:25,127: werkzeug :WARNING: * Debugger is active!
+2021-02-28 18:27:25,151: werkzeug :INFO: * Debugger PIN: 308-736-191
+2021-02-28 18:28:09,183: root :INFO:This is an info:
+2021-02-28 18:28:09,186: root :ERROR:This is an error:
+2021-02-28 18:28:09,211: root :INFO:Creating Table: start
+2021-02-28 18:28:09,222: root :INFO:Creating Table: end
+2021-02-28 18:28:12,792: root :INFO:This is an info:
+2021-02-28 18:28:12,798: root :ERROR:This is an error:
+2021-02-28 18:28:12,846: root :INFO:Creating Table: start
+2021-02-28 18:28:12,855: root :INFO:Creating Table: end
+2021-02-28 18:28:59,322: root :INFO:This is an info:
+2021-02-28 18:28:59,324: root :ERROR:This is an error:
+2021-02-28 18:30:11,477: root :INFO:This is an info:
+2021-02-28 18:30:11,480: root :ERROR:This is an error:
+2021-02-28 18:30:11,504: root :INFO:Creating Table: start
+2021-02-28 18:30:11,590: root :INFO:Creating Table: end
+2021-02-28 18:30:11,929: werkzeug :INFO: * Running on http://0.0.0.0:4200/ (Press CTRL+C to quit)
+2021-02-28 18:30:11,933: werkzeug :INFO: * Restarting with stat
+2021-02-28 18:30:12,085: root :INFO:This is an info:
+2021-02-28 18:30:12,087: root :ERROR:This is an error:
+2021-02-28 18:30:12,121: root :INFO:Creating Table: start
+2021-02-28 18:30:12,147: root :INFO:Creating Table: end
+2021-02-28 18:30:12,426: werkzeug :WARNING: * Debugger is active!
+2021-02-28 18:30:12,429: werkzeug :INFO: * Debugger PIN: 549-939-710
+2021-02-28 18:30:30,154: root :INFO:This is an info:
+2021-02-28 18:30:30,157: root :ERROR:This is an error:
+2021-02-28 18:30:30,179: root :INFO:Creating Table: start
+2021-02-28 18:30:30,191: root :INFO:Creating Table: end
+2021-02-28 18:30:33,193: root :INFO:This is an info:
+2021-02-28 18:30:33,194: root :ERROR:This is an error:
+2021-02-28 18:30:33,214: root :INFO:Creating Table: start
+2021-02-28 18:30:33,226: root :INFO:Creating Table: end
+2021-02-28 18:35:21,865: root :INFO:This is an info:
+2021-02-28 18:35:21,867: root :ERROR:This is an error:
+2021-02-28 18:38:38,905: root :INFO:This is an info:
+2021-02-28 18:38:38,909: root :ERROR:This is an error:
+2021-02-28 18:42:07,877: root :INFO:This is an info:
+2021-02-28 18:42:07,880: root :ERROR:This is an error:
+2021-02-28 18:45:48,688: root :INFO:This is an info:
+2021-02-28 18:45:48,692: root :ERROR:This is an error:
+2021-02-28 18:50:53,858: root :INFO:This is an info:
+2021-02-28 18:50:53,861: root :ERROR:This is an error:
+2021-02-28 18:54:03,954: root :INFO:This is an info:
+2021-02-28 18:54:03,961: root :ERROR:This is an error:
+2021-02-28 18:54:55,418: root :INFO:This is an info:
+2021-02-28 18:54:55,421: root :ERROR:This is an error:
+2021-02-28 18:54:55,490: root :INFO:Creating Table: start
+2021-02-28 18:54:55,561: root :INFO:Creating Table: end
+2021-02-28 18:55:47,204: root :INFO:This is an info:
+2021-02-28 18:55:47,207: root :ERROR:This is an error:
+2021-02-28 18:55:47,229: root :INFO:Creating Table: start
+2021-02-28 18:55:47,253: root :INFO:Creating Table: end
+2021-02-28 18:56:41,222: root :INFO:This is an info:
+2021-02-28 18:56:41,229: root :ERROR:This is an error:
+2021-02-28 18:57:10,992: root :INFO:This is an info:
+2021-02-28 18:57:10,996: root :ERROR:This is an error:
+2021-02-28 18:57:37,048: root :INFO:This is an info:
+2021-02-28 18:57:37,050: root :ERROR:This is an error:
+2021-02-28 18:57:37,100: root :INFO:Creating Table: start
+2021-02-28 18:57:37,190: root :INFO:Creating Table: end
+2021-02-28 18:58:23,612: root :INFO:This is an info:
+2021-02-28 18:58:23,618: root :ERROR:This is an error:
+2021-02-28 18:59:10,562: root :INFO:This is an info:
+2021-02-28 18:59:10,565: root :ERROR:This is an error:
+2021-02-28 18:59:10,620: root :INFO:Creating Table: start
+2021-02-28 18:59:10,692: root :INFO:Creating Table: end
