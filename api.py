@@ -70,7 +70,7 @@ def azure():
     output = mycursor.fetchall()
     logging.info("Launching azure page: end")
 
-    return render_template("Azure.html", len= len(output), result= output)
+    return render_template("Azure.html", len= len(output), result= output) 
 
 
 @app.route('/api/azure')
@@ -82,7 +82,6 @@ def azure_api():
     logging.info("Launching Azure API page: end")
 
     return jsonify(output)
-
 
 
 if __name__ == "__main__": 

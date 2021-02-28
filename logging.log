@@ -248,3 +248,199 @@
 2021-02-26 10:00:28,611: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:00:28] "[37mGET /azure HTTP/1.1[0m" 200 -
 2021-02-26 10:00:28,734: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:00:28] "[37mGET /static/Azure.css HTTP/1.1[0m" 200 -
 2021-02-26 10:00:28,918: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:00:28] "[37mGET /static/assets/background.jpg HTTP/1.1[0m" 200 -
+2021-02-26 10:13:49,349: root :INFO:Launching azure page: start
+2021-02-26 10:13:49,352: root :INFO:Launching azure page: end
+2021-02-26 10:13:49,353: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:13:49] "[37mGET /azure HTTP/1.1[0m" 200 -
+2021-02-26 10:13:49,478: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:13:49] "[37mGET /static/Azure.css HTTP/1.1[0m" 200 -
+2021-02-26 10:13:49,792: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:13:49] "[37mGET /static/assets/background.jpg HTTP/1.1[0m" 200 -
+2021-02-26 10:52:06,315: werkzeug :INFO: * Detected change in '/Users/tiphaineminguet/Desktop/Simplon/E_Learning/api.py', reloading
+2021-02-26 10:52:06,884: root :INFO:This is an info:
+2021-02-26 10:52:06,885: root :ERROR:This is an error:
+2021-02-26 10:52:07,036: root :INFO:Creating Table: start
+2021-02-26 10:52:07,061: root :INFO:Creating Table: end
+2021-02-26 10:52:07,569: werkzeug :WARNING: * Debugger is active!
+2021-02-26 10:52:07,591: werkzeug :INFO: * Debugger PIN: 230-982-421
+2021-02-26 10:52:11,683: werkzeug :INFO: * Detected change in '/Users/tiphaineminguet/Desktop/Simplon/E_Learning/api.py', reloading
+2021-02-26 10:52:11,924: root :INFO:This is an info:
+2021-02-26 10:52:11,924: root :ERROR:This is an error:
+2021-02-26 10:52:11,995: root :INFO:Creating Table: start
+2021-02-26 10:52:11,998: root :INFO:Creating Table: end
+2021-02-26 10:52:12,387: werkzeug :WARNING: * Debugger is active!
+2021-02-26 10:52:12,404: werkzeug :INFO: * Debugger PIN: 230-982-421
+2021-02-26 10:52:20,356: root :INFO:Launching azure page: start
+2021-02-26 10:52:20,360: root :INFO:Launching azure page: end
+2021-02-26 10:52:20,453: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:52:20] "[35m[1mGET /azure HTTP/1.1[0m" 500 -
+2021-02-26 10:52:20,660: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:52:20] "[37mGET /azure?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 10:52:20,661: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:52:20] "[37mGET /azure?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 10:52:20,662: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:52:20] "[37mGET /azure?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 10:52:21,408: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:52:21] "[37mGET /azure?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-02-26 10:52:22,259: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:52:22] "[37mGET /azure?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 10:52:22,495: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:52:22] "[37mGET /azure?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 10:52:40,108: werkzeug :INFO: * Detected change in '/Users/tiphaineminguet/Desktop/Simplon/E_Learning/api.py', reloading
+2021-02-26 10:52:40,918: root :INFO:This is an info:
+2021-02-26 10:52:40,919: root :ERROR:This is an error:
+2021-02-26 10:52:41,016: root :INFO:Creating Table: start
+2021-02-26 10:52:41,018: root :INFO:Creating Table: end
+2021-02-26 10:52:41,773: werkzeug :WARNING: * Debugger is active!
+2021-02-26 10:52:41,788: werkzeug :INFO: * Debugger PIN: 230-982-421
+2021-02-26 10:52:44,860: werkzeug :INFO: * Detected change in '/Users/tiphaineminguet/Desktop/Simplon/E_Learning/api.py', reloading
+2021-02-26 10:52:45,339: root :INFO:This is an info:
+2021-02-26 10:52:45,340: root :ERROR:This is an error:
+2021-02-26 10:52:45,496: root :INFO:Creating Table: start
+2021-02-26 10:52:45,499: root :INFO:Creating Table: end
+2021-02-26 10:52:45,974: werkzeug :WARNING: * Debugger is active!
+2021-02-26 10:52:45,997: werkzeug :INFO: * Debugger PIN: 230-982-421
+2021-02-26 10:52:49,077: werkzeug :INFO: * Detected change in '/Users/tiphaineminguet/Desktop/Simplon/E_Learning/api.py', reloading
+2021-02-26 10:52:49,282: root :INFO:This is an info:
+2021-02-26 10:52:49,282: root :ERROR:This is an error:
+2021-02-26 10:52:49,353: root :INFO:Creating Table: start
+2021-02-26 10:52:49,356: root :INFO:Creating Table: end
+2021-02-26 10:52:50,287: werkzeug :WARNING: * Debugger is active!
+2021-02-26 10:52:50,306: werkzeug :INFO: * Debugger PIN: 230-982-421
+2021-02-26 10:52:53,006: root :INFO:Launching azure page: start
+2021-02-26 10:52:53,012: root :INFO:Launching azure page: end
+2021-02-26 10:52:53,159: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:52:53] "[35m[1mGET /azure HTTP/1.1[0m" 500 -
+2021-02-26 10:52:53,308: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:52:53] "[37mGET /azure?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 10:52:53,312: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:52:53] "[37mGET /azure?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 10:52:53,319: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:52:53] "[37mGET /azure?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 10:52:53,826: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:52:53] "[37mGET /azure?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-02-26 10:52:54,837: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:52:54] "[37mGET /azure?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 10:52:55,091: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:52:55] "[37mGET /azure?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 10:54:06,713: werkzeug :INFO: * Detected change in '/Users/tiphaineminguet/Desktop/Simplon/E_Learning/api.py', reloading
+2021-02-26 10:54:07,379: root :INFO:This is an info:
+2021-02-26 10:54:07,379: root :ERROR:This is an error:
+2021-02-26 10:54:07,530: root :INFO:Creating Table: start
+2021-02-26 10:54:07,533: root :INFO:Creating Table: end
+2021-02-26 10:54:08,249: werkzeug :WARNING: * Debugger is active!
+2021-02-26 10:54:08,262: werkzeug :INFO: * Debugger PIN: 230-982-421
+2021-02-26 10:54:12,372: werkzeug :INFO: * Detected change in '/Users/tiphaineminguet/Desktop/Simplon/E_Learning/api.py', reloading
+2021-02-26 10:54:12,823: root :INFO:This is an info:
+2021-02-26 10:54:12,824: root :ERROR:This is an error:
+2021-02-26 10:54:13,037: root :INFO:Creating Table: start
+2021-02-26 10:54:13,039: root :INFO:Creating Table: end
+2021-02-26 10:54:13,387: werkzeug :WARNING: * Debugger is active!
+2021-02-26 10:54:13,397: werkzeug :INFO: * Debugger PIN: 230-982-421
+2021-02-26 10:54:17,475: werkzeug :INFO: * Detected change in '/Users/tiphaineminguet/Desktop/Simplon/E_Learning/api.py', reloading
+2021-02-26 10:54:17,754: root :INFO:This is an info:
+2021-02-26 10:54:17,754: root :ERROR:This is an error:
+2021-02-26 10:54:17,826: root :INFO:Creating Table: start
+2021-02-26 10:54:17,829: root :INFO:Creating Table: end
+2021-02-26 10:54:18,626: werkzeug :WARNING: * Debugger is active!
+2021-02-26 10:54:18,632: werkzeug :INFO: * Debugger PIN: 230-982-421
+2021-02-26 10:54:20,699: werkzeug :INFO: * Detected change in '/Users/tiphaineminguet/Desktop/Simplon/E_Learning/api.py', reloading
+2021-02-26 10:54:21,181: root :INFO:This is an info:
+2021-02-26 10:54:21,182: root :ERROR:This is an error:
+2021-02-26 10:54:21,336: root :INFO:Creating Table: start
+2021-02-26 10:54:21,339: root :INFO:Creating Table: end
+2021-02-26 10:54:21,580: werkzeug :WARNING: * Debugger is active!
+2021-02-26 10:54:21,597: werkzeug :INFO: * Debugger PIN: 230-982-421
+2021-02-26 10:54:25,677: werkzeug :INFO: * Detected change in '/Users/tiphaineminguet/Desktop/Simplon/E_Learning/api.py', reloading
+2021-02-26 10:54:26,108: root :INFO:This is an info:
+2021-02-26 10:54:26,108: root :ERROR:This is an error:
+2021-02-26 10:54:26,182: root :INFO:Creating Table: start
+2021-02-26 10:54:26,189: root :INFO:Creating Table: end
+2021-02-26 10:54:26,438: werkzeug :WARNING: * Debugger is active!
+2021-02-26 10:54:26,445: werkzeug :INFO: * Debugger PIN: 230-982-421
+2021-02-26 10:54:32,552: werkzeug :INFO: * Detected change in '/Users/tiphaineminguet/Desktop/Simplon/E_Learning/api.py', reloading
+2021-02-26 10:54:32,895: root :INFO:This is an info:
+2021-02-26 10:54:32,895: root :ERROR:This is an error:
+2021-02-26 10:54:32,937: root :INFO:Creating Table: start
+2021-02-26 10:54:32,939: root :INFO:Creating Table: end
+2021-02-26 10:54:33,417: werkzeug :WARNING: * Debugger is active!
+2021-02-26 10:54:33,442: werkzeug :INFO: * Debugger PIN: 230-982-421
+2021-02-26 10:54:37,538: werkzeug :INFO: * Detected change in '/Users/tiphaineminguet/Desktop/Simplon/E_Learning/api.py', reloading
+2021-02-26 10:54:37,787: root :INFO:This is an info:
+2021-02-26 10:54:37,787: root :ERROR:This is an error:
+2021-02-26 10:54:37,844: root :INFO:Creating Table: start
+2021-02-26 10:54:37,846: root :INFO:Creating Table: end
+2021-02-26 10:54:38,041: werkzeug :WARNING: * Debugger is active!
+2021-02-26 10:54:38,049: werkzeug :INFO: * Debugger PIN: 230-982-421
+2021-02-26 10:54:46,629: root :INFO:Launching azure page: start
+2021-02-26 10:54:46,636: root :INFO:Launching azure page: end
+2021-02-26 10:54:46,668: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:54:46] "[37mGET /azure HTTP/1.1[0m" 200 -
+2021-02-26 10:54:46,824: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:54:46] "[37mGET /static/javascript.css HTTP/1.1[0m" 200 -
+2021-02-26 10:54:47,310: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:54:47] "[37mGET /static/assets/background.jpg HTTP/1.1[0m" 200 -
+2021-02-26 10:56:04,440: root :INFO:Launching homepage: start
+2021-02-26 10:56:04,441: root :INFO:Launching homepage: end
+2021-02-26 10:56:04,455: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:56:04] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-02-26 10:56:04,812: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:56:04] "[37mGET /static/style.css HTTP/1.1[0m" 200 -
+2021-02-26 10:56:05,423: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:56:05] "[37mGET /static/assets/background.jpg HTTP/1.1[0m" 200 -
+2021-02-26 10:57:20,879: werkzeug :INFO: * Detected change in '/Users/tiphaineminguet/Desktop/Simplon/E_Learning/api.py', reloading
+2021-02-26 10:57:21,507: root :INFO:This is an info:
+2021-02-26 10:57:21,508: root :ERROR:This is an error:
+2021-02-26 10:57:21,618: root :INFO:Creating Table: start
+2021-02-26 10:57:21,623: root :INFO:Creating Table: end
+2021-02-26 10:57:22,297: werkzeug :WARNING: * Debugger is active!
+2021-02-26 10:57:22,310: werkzeug :INFO: * Debugger PIN: 230-982-421
+2021-02-26 10:57:31,223: root :INFO:Launching azure page: start
+2021-02-26 10:57:31,235: root :INFO:Launching azure page: end
+2021-02-26 10:57:31,257: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:57:31] "[37mGET /azure HTTP/1.1[0m" 200 -
+2021-02-26 10:57:31,381: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:57:31] "[37mGET /static/Azure.css HTTP/1.1[0m" 200 -
+2021-02-26 10:57:31,669: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:57:31] "[37mGET /static/assets/background.jpg HTTP/1.1[0m" 200 -
+2021-02-26 10:57:37,337: root :INFO:Launching azure page: start
+2021-02-26 10:57:37,343: root :INFO:Launching azure page: end
+2021-02-26 10:57:37,344: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:57:37] "[37mGET /azure HTTP/1.1[0m" 200 -
+2021-02-26 10:57:37,431: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:57:37] "[37mGET /static/Azure.css HTTP/1.1[0m" 200 -
+2021-02-26 10:57:37,636: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:57:37] "[37mGET /static/assets/background.jpg HTTP/1.1[0m" 200 -
+2021-02-26 10:58:21,505: root :INFO:This is an info:
+2021-02-26 10:58:21,505: root :ERROR:This is an error:
+2021-02-26 10:58:21,577: root :INFO:Creating Table: start
+2021-02-26 10:58:21,579: root :INFO:Creating Table: end
+2021-02-26 10:58:22,018: werkzeug :INFO: * Running on http://0.0.0.0:4200/ (Press CTRL+C to quit)
+2021-02-26 10:58:22,021: werkzeug :INFO: * Restarting with stat
+2021-02-26 10:58:22,177: root :INFO:This is an info:
+2021-02-26 10:58:22,178: root :ERROR:This is an error:
+2021-02-26 10:58:22,224: root :INFO:Creating Table: start
+2021-02-26 10:58:22,226: root :INFO:Creating Table: end
+2021-02-26 10:58:22,404: werkzeug :WARNING: * Debugger is active!
+2021-02-26 10:58:22,411: werkzeug :INFO: * Debugger PIN: 230-982-421
+2021-02-26 10:58:27,392: root :INFO:Launching azure page: start
+2021-02-26 10:58:27,395: root :INFO:Launching azure page: end
+2021-02-26 10:58:27,420: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:58:27] "[37mGET /azure HTTP/1.1[0m" 200 -
+2021-02-26 10:58:27,687: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:58:27] "[37mGET /static/Azure.css HTTP/1.1[0m" 200 -
+2021-02-26 10:58:28,312: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:58:28] "[37mGET /static/assets/background.jpg HTTP/1.1[0m" 200 -
+2021-02-26 10:58:57,142: werkzeug :INFO: * Detected change in '/Users/tiphaineminguet/Desktop/Simplon/E_Learning/api.py', reloading
+2021-02-26 10:58:57,257: werkzeug :INFO: * Restarting with stat
+2021-02-26 10:58:57,684: root :INFO:This is an info:
+2021-02-26 10:58:57,684: root :ERROR:This is an error:
+2021-02-26 10:58:57,778: root :INFO:Creating Table: start
+2021-02-26 10:58:57,781: root :INFO:Creating Table: end
+2021-02-26 10:58:58,259: werkzeug :WARNING: * Debugger is active!
+2021-02-26 10:58:58,268: werkzeug :INFO: * Debugger PIN: 230-982-421
+2021-02-26 10:59:03,427: werkzeug :INFO: * Detected change in '/Users/tiphaineminguet/Desktop/Simplon/E_Learning/api.py', reloading
+2021-02-26 10:59:03,577: werkzeug :INFO: * Restarting with stat
+2021-02-26 10:59:03,964: root :INFO:This is an info:
+2021-02-26 10:59:03,964: root :ERROR:This is an error:
+2021-02-26 10:59:04,091: root :INFO:Creating Table: start
+2021-02-26 10:59:04,094: root :INFO:Creating Table: end
+2021-02-26 10:59:05,140: werkzeug :WARNING: * Debugger is active!
+2021-02-26 10:59:05,152: werkzeug :INFO: * Debugger PIN: 230-982-421
+2021-02-26 10:59:06,225: root :INFO:Launching azure page: start
+2021-02-26 10:59:06,227: root :INFO:Launching azure page: end
+2021-02-26 10:59:06,253: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:59:06] "[37mGET /azure HTTP/1.1[0m" 200 -
+2021-02-26 10:59:06,499: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:59:06] "[37mGET /static/javascript.css HTTP/1.1[0m" 200 -
+2021-02-26 10:59:06,859: werkzeug :INFO:127.0.0.1 - - [26/Feb/2021 10:59:06] "[37mGET /static/assets/background.jpg HTTP/1.1[0m" 200 -
+2021-02-26 11:00:15,438: werkzeug :INFO: * Detected change in '/Users/tiphaineminguet/Desktop/Simplon/E_Learning/api.py', reloading
+2021-02-26 11:00:15,676: werkzeug :INFO: * Restarting with stat
+2021-02-26 11:00:16,138: root :INFO:This is an info:
+2021-02-26 11:00:16,138: root :ERROR:This is an error:
+2021-02-26 11:00:16,519: root :INFO:Creating Table: start
+2021-02-26 11:00:16,530: root :INFO:Creating Table: end
+2021-02-26 11:00:17,679: werkzeug :WARNING: * Debugger is active!
+2021-02-26 11:00:17,688: werkzeug :INFO: * Debugger PIN: 230-982-421
+2021-02-26 11:00:27,836: werkzeug :INFO: * Detected change in '/Users/tiphaineminguet/Desktop/Simplon/E_Learning/api.py', reloading
+2021-02-26 11:00:27,904: werkzeug :INFO: * Restarting with stat
+2021-02-26 11:00:28,056: root :INFO:This is an info:
+2021-02-26 11:00:28,056: root :ERROR:This is an error:
+2021-02-26 11:00:28,118: root :INFO:Creating Table: start
+2021-02-26 11:00:28,121: root :INFO:Creating Table: end
+2021-02-26 11:00:28,504: werkzeug :WARNING: * Debugger is active!
+2021-02-26 11:00:28,512: werkzeug :INFO: * Debugger PIN: 230-982-421
+2021-02-26 11:01:07,173: werkzeug :INFO: * Detected change in '/Users/tiphaineminguet/Desktop/Simplon/E_Learning/api.py', reloading
+2021-02-26 11:01:07,220: werkzeug :INFO: * Restarting with stat
+2021-02-26 11:01:07,358: root :INFO:This is an info:
+2021-02-26 11:01:07,358: root :ERROR:This is an error:
+2021-02-26 11:01:07,413: root :INFO:Creating Table: start
+2021-02-26 11:01:07,415: root :INFO:Creating Table: end
+2021-02-26 11:01:07,711: werkzeug :WARNING: * Debugger is active!
+2021-02-26 11:01:07,722: werkzeug :INFO: * Debugger PIN: 230-982-421
