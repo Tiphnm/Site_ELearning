@@ -38,28 +38,28 @@ def javascript():
     return render_template("javascript.html", len = len(result), results=result)
 
 
-@app.route('/api/javascript')
-def javascript_api():
-    logging.info("Launching javascript API page: start")
+# @app.route('/api/javascript')
+# def javascript_api():
+#     logging.info("Launching javascript API page: start")
 
-    mycursor.execute("SELECT * FROM Courses WHERE CATEGORY LIKE 'JavaScript';")
-    output = mycursor.fetchall()
+#     mycursor.execute("SELECT * FROM Courses WHERE CATEGORY LIKE 'JavaScript';")
+#     output = mycursor.fetchall()
 
-    logging.info("Launching javascript API page: end")
+#     logging.info("Launching javascript API page: end")
 
-    return jsonify(output)
+#     return jsonify(output)
 
 
-@app.route('/api/python')
-def python():
-    logging.info("Launching python API page: start")
+# @app.route('/api/python')
+# def python():
+#     logging.info("Launching python API page: start")
 
-    mycursor.execute("SELECT * FROM Courses")
-    output = mycursor.fetchall()
+#     mycursor.execute("SELECT * FROM Courses")
+#     output = mycursor.fetchall()
 
-    logging.info("Launching python API page: end")
+#     logging.info("Launching python API page: end")
 
-    return jsonify(output)
+#     return jsonify(output)
 
 
 @app.route('/azure', methods=["GET"])
@@ -73,15 +73,15 @@ def azure():
     return render_template("Azure.html", len= len(output), result= output) 
 
 
-@app.route('/api/azure')
-def azure_api():
-    logging.info("Launching Azure API page: start")
+# @app.route('/api/azure')
+# def azure_api():
+#     logging.info("Launching Azure API page: start")
 
-    mycursor.execute("SELECT * FROM Courses WHERE CATEGORY LIKE 'Azure'")
-    output = mycursor.fetchall()
-    logging.info("Launching Azure API page: end")
+#     mycursor.execute("SELECT * FROM Courses WHERE CATEGORY LIKE 'Azure'")
+#     output = mycursor.fetchall()
+#     logging.info("Launching Azure API page: end")
 
-    return jsonify(output)
+#     return jsonify(output)
 
 
 if __name__ == "__main__": 
