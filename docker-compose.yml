@@ -1,0 +1,25 @@
+version: "3"
+services: 
+  mysql:
+    container_name: mysql_db
+    image: mysql 
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'My_classes'
+      MYSQL_USER: 'elearning_user'
+      MYSQL_PASSWORD: '123'
+      MYSQL_ROOT_PASSWORD: '123'
+  elearning: 
+    container_name: elearning
+    build: .
+    image: elearning_flask 
+    restart: always
+    depends_on: 
+      - mysql
+    ports: 
+      - "4200:4200" 
+    environment: 
+      - FLASK_ENV=development 
+    volumes: 
+      - .:/app
+    command: ["./wait-for-it.sh", "mysql:3306",'--timeout=30', "--", "python", "api.py"]
