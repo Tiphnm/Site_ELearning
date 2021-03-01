@@ -8,10 +8,12 @@ logging.info('This is an info:')
 logging.error('This is an error:')
 
 database = mysql.connector.connect(
-                                host="localhost",
+                                host="mysql_db",
                                 database= "My_classes",
-                                user="root",
-                                password="123")
+                                user="elearning_user",
+                                port="3306",
+                                password="123"
+                                )
 
 mycursor= database.cursor()
 
