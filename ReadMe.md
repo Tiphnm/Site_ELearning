@@ -17,10 +17,10 @@ Notre site est composée: d'une page d'accueil, de pages consacrées aux vidéos
 
 ### Architecture du projet 
 
-1. db.py : Contient la connection avec la base de données
-2. api.py : Contient les éléments permettant de faire une API avec flask
-3. /templates & /Static : Contient les fichiers HTML & CSS créer a partir du template Jinja inclus dans flask
-4. DockerFile, DockerCompose & wait-for-it.sh : Fichier permettant de dockeriser le projet
+. db.py : Contient la connection avec la base de données
+. api.py : Contient les éléments permettant de faire une API avec flask
+. /templates & /Static : Contient les fichiers HTML & CSS créer a partir du template Jinja inclus dans flask
+. DockerFile, DockerCompose & wait-for-it.sh : Fichier permettant de dockeriser le projet
 
 Maxime Chagnon 
 Tiphaine Minguet 
