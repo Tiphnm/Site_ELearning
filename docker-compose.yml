@@ -7,8 +7,8 @@ services:
     environment:
       MYSQL_DATABASE: 'My_classes'
       MYSQL_USER: 'elearning_user'
-      MYSQL_PASSWORD: '123'
-      MYSQL_ROOT_PASSWORD: '123'
+      MYSQL_PASSWORD: 123
+      MYSQL_ROOT_PASSWORD: 123
   elearning: 
     container_name: elearning
     build: .
