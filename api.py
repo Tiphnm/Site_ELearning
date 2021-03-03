@@ -37,6 +37,15 @@ def javascript():
 
     return render_template("javascript.html", len = len(result), results=result)
 
+@app.route('/azure', methods=["GET"])
+def azure():
+    logging.info("Launching azure page: start")
+
+    mycursor.execute("SELECT * FROM Courses WHERE CATEGORY LIKE 'Azure'")
+    output = mycursor.fetchall()
+    logging.info("Launching azure page: end")
+
+    return render_template("Azure.html", len= len(output), result= output) 
 
 # @app.route('/api/javascript')
 # def javascript_api():
@@ -60,18 +69,6 @@ def javascript():
 #     logging.info("Launching python API page: end")
 
 #     return jsonify(output)
-
-
-@app.route('/azure', methods=["GET"])
-def azure():
-    logging.info("Launching azure page: start")
-
-    mycursor.execute("SELECT * FROM Courses WHERE CATEGORY LIKE 'Azure'")
-    output = mycursor.fetchall()
-    logging.info("Launching azure page: end")
-
-    return render_template("Azure.html", len= len(output), result= output) 
-
 
 # @app.route('/api/azure')
 # def azure_api():
